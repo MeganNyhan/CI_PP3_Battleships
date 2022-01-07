@@ -100,3 +100,19 @@ def check_for_ship_sunk(row, col):
     global GRID
 
     pass
+
+
+def shoot_bullet():
+    """
+        This is the function for shooting bullets.
+        It will update the grid and ships based on where the bullet was aimed and shot.
+        It has no return but will use accept_valid_bullet_position function.
+    """
+    global GRID
+    global NUM_OF_SHIPS_SUNK
+    global BULLETS_LEFT
+
+    row, col = accept_valid_bullet_placement()
+
+    pass
+
