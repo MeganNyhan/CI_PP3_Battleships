@@ -68,9 +68,23 @@ def print_grid():
     """
         This is the print grid function.
         This will print the grid with rows A - J and 0 - 9 making it 10x10.
+        This has a no return.
+    """ 
+    global GRID  
+    global ALPHABET
+    
+    pass
+
+
+def accept_valid_bullet_placement():
+    """ 
+        This is the bullet placement function.
+        This will get a valid row and column to place the bullet you shoot.
         This has a return for row, column - both being integers.
     """
     global ALPHABET
     global GRID
 
     pass
+
+    return 0, 0
