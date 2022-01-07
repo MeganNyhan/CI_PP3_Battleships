@@ -51,10 +51,26 @@ def try_to_place_ship_on_grid(row, col, direction, length):
 def create_grid():
     """ 
         This is the create grid function.
-        This will create a 15x15 grid and randomly place down ships of different sizes in different directions.
+        This will create a 10x10 grid and randomly place down ships of different sizes in different directions.
         This will have no return but will use the try_to_place_ship_on_grid.
     """
     global GRID
     global GRID_SIZE
     global NUM_OF_SHIPS
     global SHIP_POSITIONS      
+
+    pass
+
+    try_to_place_ship_on_grid(0, 0, 0, 0)
+
+
+def print_grid():
+    """
+        This is the print grid function.
+        This will print the grid with rows A - J and 0 - 9 making it 10x10.
+        This has a return for row, column - both being integers.
+    """
+    global ALPHABET
+    global GRID
+
+    pass
