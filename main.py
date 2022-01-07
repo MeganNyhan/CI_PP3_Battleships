@@ -16,11 +16,16 @@ NUM_OF_SHIPS = 8
 BULLETS_LEFT = 50
 # Global variable for game over
 GAME_OVER = False
-#Global variable for number of ships you have sunk
+# Global variable for number of ships you have sunk
 NUM_OF_SHIPS_SUNK = 0
-#Global variable for ship positions on grid
+# Global variable for ship positions on grid
 SHIP_POSITIONS = [[]]
-#Global variable for alphabet on side of grids
+# Global variable for alphabet on side of grids
 ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-
+def validate_grid_and_place_ship(start_row, end_row, start_col, end_col):
+    """
+        This is the validate_grid_and_place_ship function.
+        It will check the row or column to see if you can place your ship down on the grid.
+        It will return a True or False statement.
+    """    
