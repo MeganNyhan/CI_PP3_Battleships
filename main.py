@@ -88,3 +88,15 @@ def accept_valid_bullet_placement():
     pass
 
     return 0, 0
+
+
+def check_for_ship_sunk(row, col):
+    """ 
+        This is the check_for_ship_sunk function.
+        This will check if all the parts of the ship have been shot and if so the ship is sunk.
+        It has a return value of True or False.
+    """
+    global SHIP_POSITIONS
+    global GRID
+
+    pass
