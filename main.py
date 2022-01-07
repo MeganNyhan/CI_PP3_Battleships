@@ -23,6 +23,7 @@ SHIP_POSITIONS = [[]]
 # Global variable for alphabet on side of grids
 ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
+
 def validate_grid_and_place_ship(start_row, end_row, start_col, end_col):
     """
         This is the validate_grid_and_place_ship function.
@@ -32,6 +33,18 @@ def validate_grid_and_place_ship(start_row, end_row, start_col, end_col):
     global GRID
     global SHIP_POSITIONS
 
+    all_valid = True
+    for r in range(start_row, end_row):
+        for c in range(start_col, end_col):
+            if GRID[r][c] != ".":
+                all_valid = False
+                break
+    if all_valid:
+        SHIP_POSITIONS.append([start_row, end_row, start_col, end_col])
+        for r in range(start_row, end_row):
+            for c in range (start_col end_col):
+                GRID[r][c]= "O"
+    return all_valid
     pass
 
 
@@ -125,4 +138,25 @@ def check_for_game_over():
         Has no return.
     """
     global NUM_OF_SHIPS_SUNK
-    
+    global NUM_OF_SHIPS
+    global BULLETS_LEFT
+    global GAME_OVER
+
+    pass
+
+
+def main():
+    """ 
+        This function will run the game loop.
+        It has no return, but will use create_grid, print_grid, shoot_bullet, and check_for_game_over.
+    """
+    global GAME_OVER
+
+    pass
+
+
+if __name__ == '__main__':
+    """ 
+        This will only be called when the program is run from the terminal or an IDE like PyCharms
+    """
+    main()
