@@ -116,3 +116,13 @@ def shoot_bullet():
 
     pass
 
+
+def check_for_game_over():
+    """ 
+        This is the check for game over function.
+        This will check to see if all ships have sunk if so the game is over.
+        It will also check for the amount of bullets we have remaining, if it goes to 0 the game will end.
+        Has no return.
+    """
+    global NUM_OF_SHIPS_SUNK
+    
