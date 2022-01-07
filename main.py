@@ -46,3 +46,15 @@ def try_to_place_ship_on_grid(row, col, direction, length):
     pass
 
     return validate_grid_and_place_ship(0, 0, 0, 0)
+
+
+def create_grid():
+    """ 
+        This is the create grid function.
+        This will create a 15x15 grid and randomly place down ships of different sizes in different directions.
+        This will have no return but will use the try_to_place_ship_on_grid.
+    """
+    global GRID
+    global GRID_SIZE
+    global NUM_OF_SHIPS
+    global SHIP_POSITIONS      
