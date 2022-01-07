@@ -28,4 +28,21 @@ def validate_grid_and_place_ship(start_row, end_row, start_col, end_col):
         This is the validate_grid_and_place_ship function.
         It will check the row or column to see if you can place your ship down on the grid.
         It will return a True or False statement.
-    """    
+    """
+    global GRID
+    global SHIP_POSITIONS
+
+    pass
+
+
+def try_to_place_ship_on_grid(row, col, direction, length):
+    """
+        This is the try_to_place_ship_on_grid function.
+        It is based on direction that will call the helper method to try and place a ship on the grid.
+        This will return the validate_grid_and_place_ship function which will confirm if its True or False.
+    """
+    global GRID_SIZE
+
+    pass
+
+    return validate_grid_and_place_ship(0, 0, 0, 0)
