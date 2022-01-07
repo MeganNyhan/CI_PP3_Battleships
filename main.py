@@ -27,7 +27,8 @@ ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 def validate_grid_and_place_ship(start_row, end_row, start_col, end_col):
     """
         This is the validate_grid_and_place_ship function.
-        It will check the row or column to see if you can place your ship down on the grid.
+        It will check the row or column to see if you can place your ship down 
+        on the grid.
         It will return a True or False statement.
     """
     global GRID
@@ -42,17 +43,18 @@ def validate_grid_and_place_ship(start_row, end_row, start_col, end_col):
     if all_valid:
         SHIP_POSITIONS.append([start_row, end_row, start_col, end_col])
         for r in range(start_row, end_row):
-            for c in range (start_col end_col):
-                GRID[r][c]= "O"
+            for c in range(start_col, end_col):
+                GRID[r][c] = "O"
     return all_valid
-    pass
-
+ 
 
 def try_to_place_ship_on_grid(row, col, direction, length):
     """
         This is the try_to_place_ship_on_grid function.
-        It is based on direction that will call the helper method to try and place a ship on the grid.
-        This will return the validate_grid_and_place_ship function which will confirm if its True or False.
+        It is based on direction that will call the helper method to try and 
+        place a ship on the grid.
+        This will return the validate_grid_and_place_ship function which will 
+        confirm if its True or False.
     """
     global GRID_SIZE
 
@@ -64,7 +66,8 @@ def try_to_place_ship_on_grid(row, col, direction, length):
 def create_grid():
     """ 
         This is the create grid function.
-        This will create a 10x10 grid and randomly place down ships of different sizes in different directions.
+        This will create a 10x10 grid and randomly place down ships of different
+        sizes in different directions.
         This will have no return but will use the try_to_place_ship_on_grid.
     """
     global GRID
@@ -106,7 +109,8 @@ def accept_valid_bullet_placement():
 def check_for_ship_sunk(row, col):
     """ 
         This is the check_for_ship_sunk function.
-        This will check if all the parts of the ship have been shot and if so the ship is sunk.
+        This will check if all the parts of the ship have been shot and if so
+        the ship is sunk.
         It has a return value of True or False.
     """
     global SHIP_POSITIONS
@@ -118,7 +122,8 @@ def check_for_ship_sunk(row, col):
 def shoot_bullet():
     """
         This is the function for shooting bullets.
-        It will update the grid and ships based on where the bullet was aimed and shot.
+        It will update the grid and ships based on where the bullet was aimed 
+        and shot.
         It has no return but will use accept_valid_bullet_position function.
     """
     global GRID
@@ -134,7 +139,8 @@ def check_for_game_over():
     """ 
         This is the check for game over function.
         This will check to see if all ships have sunk if so the game is over.
-        It will also check for the amount of bullets we have remaining, if it goes to 0 the game will end.
+        It will also check for the amount of bullets we have remaining, if it 
+        goes to 0 the game will end.
         Has no return.
     """
     global NUM_OF_SHIPS_SUNK
@@ -148,7 +154,8 @@ def check_for_game_over():
 def main():
     """ 
         This function will run the game loop.
-        It has no return, but will use create_grid, print_grid, shoot_bullet, and check_for_game_over.
+        It has no return, but will use create_grid, print_grid, shoot_bullet, 
+        and check_for_game_over.
     """
     global GAME_OVER
 
@@ -157,6 +164,7 @@ def main():
 
 if __name__ == '__main__':
     """ 
-        This will only be called when the program is run from the terminal or an IDE like PyCharms
+        This will only be called when the program is run from the terminal or 
+        an IDE like PyCharms
     """
     main()
