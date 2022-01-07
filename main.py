@@ -23,3 +23,13 @@ num_of_ships_sunk = 0
 ship_positions = [[]]
 # Global variable for alphabet
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+"""
+This function will place the ship.
+It has to firstly check if the row or column is ok to place the ship down.
+Will return True or False
+"""
+def validat_grid_and_place_ship(start_row, end_row, start_col, end_col):
+    global grid
+    global ship_positions
+
+    pass
