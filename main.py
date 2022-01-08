@@ -17,6 +17,27 @@ lives_left = 6
 game_over = False
 
 
+def choose_random_word():
+    """
+        This will choose a random word selected from the list
+        below.
+    """
+    global randomly_chosen_word
+
+    acceptable_words = [
+        "Donegal",
+        "Derry",
+        "Offlay",
+        "Loais",
+        "Cavan",
+        "Dublin"
+    ]
+
+    random.seed(time.time())
+    randomly_chosen_word = random.choice(acceptable_words)
+    randomly_chosen_word = randomly_chosen_word.lower()
+
+
 def draw_word():
     global correctly_guessed_letters
     global randomly_chosen_word
@@ -166,5 +187,30 @@ def check_for_game_over():
             print("Congratulations! You have won! Feel free to play again.")
 
 
-def 
+def main():
+    """
+        The entry point of the application.
+        This will call all other functions in the game loop"
+    """
+    global game_over
+
+    print("-------- Welcome to Hangman!!! --------")
+    choose_random_word()
+
+    while game_over is False:
+        draw_hangman()
+        draw_word()
+
+        if len(incorrectly_guessed_letters) > 0:
+            print("Incorrect Guess: ")
+            print(incorrectly_guessed_letters)
+
+        guess_letter()
+        check_for_game_over()
+
+
+# if __name__ == '__main__':
+#     """ 
+#     This will only be called when you run the python program from the termanial or an IDE like PyCharms
+#     """
 
