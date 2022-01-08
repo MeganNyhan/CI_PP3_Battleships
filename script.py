@@ -175,7 +175,12 @@ def check_for_game_over():
     if lives_left <= 0:
         game_over = True
         draw_hangman()
-        print("You lost! The word was " + randomly_chosen_word + ". Try again next time!")
+        print(
+              "You lost! The word was ",
+               + randomly_chosen_word +,
+               ". " Try again next time! ")
+
+
     else:
         guessed_all_letters = True
         for letter in randomly_chosen_word:
@@ -194,7 +199,7 @@ def main():
     """
     global game_over
 
-    print("-------- Welcome to Hangman!!! --------")
+    print("-------- Welcome to the Irish County Hangman Challenge!!! --------")
     choose_random_word()
 
     while game_over is False:
@@ -213,4 +218,3 @@ def main():
 #     """ 
 #     This will only be called when you run the python program from the termanial or an IDE like PyCharms
 #     """
-
