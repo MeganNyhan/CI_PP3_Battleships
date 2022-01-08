@@ -142,3 +142,29 @@ def guess_letter():
         incorrectly_guessed_letters.append(letter)
         lives_left -= 1
 
+
+def check_for_game_over():
+    """
+    This function check to see if the user has lost
+    """
+    global lives_left
+    global game_over
+    global correctly_guessed_letters
+
+    if lives_left <= 0:
+        game_over = True
+        draw_hangman()
+        print("You lost! The word was " + randomly_chosen_word + ". Try again next time!")
+    else:
+        guessed_all_letters = True
+        for letter in randomly_chosen_word:
+            if letter not in correctly_guessed_letters:
+                guessed_all_letters = False
+                break
+        if guessed_all_letters:
+            game_over = True
+            print("Congratulations! You have won! Feel free to play again.")
+
+
+def 
+
