@@ -75,5 +75,23 @@ def draw_hangman():
         print("|")
         print("|")
         print("+--------+")
+    elif lives_left == 2:
+        print("+------------+")
+        print("|            |")
+        print("|            O")
+        print("|            |")
+        print("|           / \\")
+        print("|")
+        print("|")
+        print("+--------+")
+    elif lives_left == 1:
+        print("+------------+")
+        print("|            |")
+        print("|            O")
+        print("|            |\\")
+        print("|           / \\")
+        print("|")
+        print("|")
+        print("+--------+")
 
 
