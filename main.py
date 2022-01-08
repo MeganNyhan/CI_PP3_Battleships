@@ -93,5 +93,37 @@ def draw_hangman():
         print("|")
         print("|")
         print("+--------+")
+    elif lives_left == 0:
+        print("+------------+")
+        print("|            |")
+        print("|            O")
+        print("|           /|\\")
+        print("|           / \\")
+        print("|")
+        print("|")
+        print("+--------+")
+
+
+def get_one_valid_letter():
+    """
+        This function will make sure the user only types in 1
+        letter that hasn't previously been used.
+        It will also prompt the user to input a letter.
+    """
+    is_letter_valid = False
+    letter = ""
+    while is_letter_valid is False:
+        letter = input("Enter a letter: ")
+        letter = letter.strip().lower()
+        if len(letter) <= 0 or len(letter) > 1:
+            print("Only one letter can be entered")
+        elif letter.isalpha():
+            if letter in correctly_guessed_letters or letter in incorrectly_guessed_letters:
+                print("You have already guessed the letter " + letter + ", please try again")
+            else:
+                print("Your Letter must be (A-Z)")
+
+    return letter
+                
 
 
