@@ -126,4 +126,19 @@ def get_one_valid_letter():
     return letter
                 
 
+def guess_letter():
+    """
+        This function will check if the letter is correct or wrong,
+        and update global variabled based on the result.
+    """
+    global correctly_guessed_letters
+    global incorrectly_guessed_letters
+    global lives_left
+
+    letter = get_one_valid_letter()
+    if letter in randomly_chosen_word:
+        correctly_guessed_letters.append(letter)
+    else:
+        incorrectly_guessed_letters.append(letter)
+        lives_left -= 1
 
