@@ -89,9 +89,28 @@ def create_grid():
     global NUM_OF_SHIPS
     global SHIP_POSITIONS      
 
-    pass
+    random.seed(time.time())
 
-    try_to_place_ship_on_grid(0, 0, 0, 0)
+    rows, cols = (GRID_SIZE, GRID_SIZE)
+
+    GRID = []
+    for r in range(rows):
+        row = []
+        for c in range(cols):
+            row.append(".")
+        GRID.append(row)
+
+    NUM_OF_SHIPS_PLACED = 0
+
+    SHIP_POSITIONS = []
+
+    while NUM_OF_SHIPS_PLACED != NUM_OF_SHIPS:
+        random_row = random.randint(0, rows - 1)
+        random_col = random.randint(0, cols - 1)
+        direction = random.choice(["left", "right", "up", "down"])
+        ship_size = random.randint(3, 5)
+        if try_to_place_ship_on_grid(random_row, random_col, direction, ship_size):
+            NUM_OF_SHIPS_PLACED += 1
 
 
 def print_grid():
@@ -103,8 +122,26 @@ def print_grid():
     global GRID  
     global ALPHABET
     
-    pass
+    debug_mode = True
 
+    ALPHABET = alphabet[0: len(GRID) + 1]
+
+    for row in range (len(GRID)):
+        print(ALPHABET(row), end=") ")
+        for col in range(len(GRID[row])):
+            if GRID[row][col] == "O":
+                if debug_mode:
+                    print("O", end=" ")
+                else:
+                    print(".", end=" ")
+            else:
+                print(GRID[row][col], end=" ")
+        print("")
+
+    print(" ", end=" ")
+    for i in range(len(GRID[0])):
+        print(str(i), end=" ")
+    print("")
 
 def accept_valid_bullet_placement():
     """ 
