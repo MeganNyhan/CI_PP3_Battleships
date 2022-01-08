@@ -152,9 +152,31 @@ def accept_valid_bullet_placement():
     global ALPHABET
     global GRID
 
-    pass
+    is_valid_placement = False
+    row = -1
+    col = -1
+    while is_valid_placement is False:
+        placement = input("Enter row (A-J) and column (0-9) such as A3: ")
+        placement = placement.upper()
+        if len(placement) <= 0 or len(placement) > 2:
+            print("Error: Please enter only one row and column such as A3")
+            continue
+        row = placement[0]
+        col = placement[1]
+        if not row.isalpha() or not col.isnumeric():
+            print("Error: Please enter letter (A-J) for row and (0-9) for column")
+            continue
+        row = ALPHABET.find(row)
+        if not (-1 < row < GRID_SIZE):
+            print("Error: Please enter letter (A-J) for row and (0-9) for column")
+            continue
+        if GRID[row][col] == "#" or GRID[row][col] == "X":
+            print("You have already shot a bullet here, pick somewhere else")
+            continue
+        if GRID[row][col] == "." or GRID[row][col] == "O":
+            is_valid_placement = True
 
-    return 0, 0
+    return row, col
 
 
 def check_for_ship_sunk(row, col):
@@ -167,7 +189,18 @@ def check_for_ship_sunk(row, col):
     global SHIP_POSITIONS
     global GRID
 
-    pass
+    for position in SHIP_POSITIONS:
+        start_row = position[0]
+        end_row = position[1]
+        start_col = position[2]
+        end_col = position[3]
+        if start_row <= row <= end_row and start_col <= col <= end_col:
+            # Ship found, now check if its all sunk
+            for r in range(start_row, end_row):
+                for c in range(start_col, end_col):
+                    if GRID[r][c] != "X":
+                        return False
+    return True
 
 
 def shoot_bullet():
