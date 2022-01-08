@@ -2,11 +2,11 @@ import random
 import time
 
 """
-Legend:
-1. "." = water or empty space.
-2."O" - part of ship.
-3."X" = part of ship that was hit with a bullet.
-4."#" = Water that was shot with a bullet. This is a miss.
+    Legend:
+    1. "." = water or empty space.
+    2."O" - part of ship.
+    3."X" = part of ship that was hit with a bullet.
+    4."#" = Water that was shot with a bullet. This is a miss.
 """
 
 # Global variable for grid
@@ -112,7 +112,8 @@ def create_grid():
         random_col = random.randint(0, cols - 1)
         direction = random.choice(["left", "right", "up", "down"])
         ship_size = random.randint(3, 5)
-        if try_to_place_ship_on_grid(random_row, random_col, direction, ship_size):
+        if try_to_place_ship_on_grid(random_row, random_col, direction,
+                                     ship_size):
             NUM_OF_SHIPS_PLACED += 1
 
 
@@ -273,7 +274,8 @@ def main():
 
     while GAME_OVER is False:
         print_grid()
-        print("Number of ships remaining: "+str(NUM_OF_SHIPS-NUM_OF_SHIPS_SUNK))
+        print("Number of ships remaining: " + str(NUM_OF_SHIPS - 
+                                                  NUM_OF_SHIPS_SUNK))
         print("Number of bullets left: " + str(BULLETS_LEFT))
         shoot_bullet()
         print("--------------------------------")
