@@ -28,3 +28,33 @@ def draw_word():
         else: 
             print("_", end=" ")
     print("")
+
+
+def draw_hangman():
+    """
+        This function will draw the hangman when the user
+        answers the incorrect letter.
+        This is also directly related to the number of 
+        lives left
+    """
+    global lives_left
+
+    if lives_left == 6:
+        print("+------------+")
+        print("|            |")
+        print("|")
+        print("|")
+        print("|")
+        print("|")
+        print("|")
+        print("+--------+")
+    elif lives_left == 5:
+        print("+------------+")
+        print("|            |")
+        print("|")
+        print("|")
+        print("|")
+        print("|")
+        print("|")
+        print("+--------+")
+
