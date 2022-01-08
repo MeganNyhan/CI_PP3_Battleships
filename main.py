@@ -51,10 +51,20 @@ def draw_hangman():
     elif lives_left == 5:
         print("+------------+")
         print("|            |")
-        print("|")
+        print("|            O")
         print("|")
         print("|")
         print("|")
         print("|")
         print("+--------+")
+    elif lives_left == 4:
+        print("+------------+")
+        print("|            |")
+        print("|            O")
+        print("|.           |")
+        print("|")
+        print("|")
+        print("|")
+        print("+--------+")
+
 
