@@ -17,14 +17,14 @@ lives_left = 6
 game_over = False
 
 
-def draw_word()
+def draw_word():
     global correctly_guessed_letters
     global randomly_chosen_word
 
     for i in range(0, len(randomly_chosen_word)):
-        letter - randomly_chosen_word[i]
+        letter = randomly_chosen_word[i]
         if letter in correctly_guessed_letters:
-            print(letter, end= " ")
+            print(letter, end=" ")
         else: 
             print("_", end=" ")
     print("")
