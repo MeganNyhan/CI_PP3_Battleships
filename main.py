@@ -262,7 +262,19 @@ def main():
     """
     global GAME_OVER
 
-    pass
+    print("-------Welcome to Battleship-------")
+    print("You have 50 bullets to take down 8 ships, may the battle commence!")
+
+    create_grid()
+
+    while GAME_OVER is False:
+        print_grid()
+        print("Number of ships remaining: " + str(NUM_OF_SHIPS - NUM_OF_SHIPS_SUNK))
+        print("Number of bullets left: " + str(BULLETS_LEFT))
+        shoot_bullet()
+        print("--------------------------------")
+        print("")
+        check_for_game_over()
 
 
 if __name__ == '__main__':
