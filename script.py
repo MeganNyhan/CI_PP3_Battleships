@@ -1,5 +1,7 @@
+#Imports the "random" to get words for the game
 import random
 import time
+from word_list import word_list
 
 # Global variable for correctly guessed letter
 correctly_guessed_letters = []
@@ -176,9 +178,7 @@ def check_for_game_over():
         game_over = True
         draw_hangman()
         print(
-              "You lost! The word was ",
-               + randomly_chosen_word +,
-               ". " Try again next time! ")
+              "You lost! The word was ", + randomly_chosen_word +, ". " Try again next time! ")
 
 
     else:
