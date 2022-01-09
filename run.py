@@ -96,19 +96,19 @@ def game_display():
 {}    {}  {}    {}   {}  {{{}   {}  {{{{   {}  {}  {}  {}    {}   {}  {{{}
 {}    {}  {}    {}   {}    {}    {}}}}}    {}      {}  {}    {}   {}    {}
         """)
-        print(HANGMAN[7])
-        name = input("Please enter your name: \n")
-        print("Welcome", name, "! Are you ready to play Hangman?")
-        print("Try to guess the Irish county before your guesses run out. You have 7 guesses!")
+    print(HANGMAN[7])
+    name = input("Please enter your name: \n")
+    print("Welcome", name, "! Are you ready to play Hangman?")
+    print("Try to guess the Irish county before your guesses run out. You have 7 guesses!")
 
 
 def start_game():
-"""
-This function signals the game to start.
-Its main purpose is to check the guesses left that the user has or,
-If the correct word is guessed to end the game or,
-If the hangman display is created then the game ends and teh user looses.
-"""
+    """
+        This function signals the game to start.
+        Its main purpose is to check the guesses left that the user has or,
+        If the correct word is guessed to end the game or,
+        If the hangman display is created then the game ends and teh user looses.
+    """
 #Main variables used:
     global word
     global current_guess
