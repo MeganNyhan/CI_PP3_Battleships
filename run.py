@@ -14,7 +14,7 @@ def get_word():
 
 
 def play(word):
-    # This is the play function which holds most of the functionality of the game.
+    # The play function holds most of the functionality of the game.
     word_completion = "_" * len(word)
     guessed = False
     guessed_letters = []
@@ -23,3 +23,79 @@ def play(word):
     # This part of the function will guide the user through the game.
     print("Are you ready to play hangman?")
     print(display_hangman(tries))
+
+
+# Display Hangman function displays what the user will see as the game.
+def display_hangman(tries):
+    stages = [ """ 
+      +------------+
+      |            |
+      |
+      |
+      |
+      |
+      |
+      +--------+
+   """,
+   """
+      +------------+
+      |            |
+      |            O
+      |
+      |
+      |
+      |
+      +--------+
+   """,
+   """
+      +------------+
+      |            |
+      |            O
+      |            |
+      |
+      |
+      |
+      +--------+
+   """,
+ """
+      +------------+
+      |            |
+      |            O
+      |            |
+      |           /
+      |
+      |
+      +--------+
+   """,
+   """
+      +------------+
+      |            |
+      |            O
+      |            |
+      |           / \\
+      |
+      |
+      +--------+
+   """,
+   """
+      +------------+
+      |            |
+      |            O
+      |            |\\
+      |           / \\
+      |
+      |
+      +--------+
+   """,
+   """
+      +------------+
+      |            |
+      |            O
+      |           /|\\
+      |           / \\
+      |
+      |
+      +--------+
+   """
+]
+return stages[tries]
