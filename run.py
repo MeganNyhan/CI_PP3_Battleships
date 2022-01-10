@@ -6,15 +6,17 @@
 from words import word_list 
 import random  # Imports random library to generate random word.
 
-# Get word function which will get a word for the game to run.
-# This function will use words from the words.py file I created.
+"""Get word function which will get a word for the game to run.
+This function will use words from the words.py file I created."""
+
+
 def get_word():
     word = random.choice(word_list)
-    return word.upper ()  # Returns word in uppercase
+    return word.upper()  # Returns word in uppercase
 
 
 def play(word):
-# The play function holds most of the functionality of the game.
+    # The play function holds most of the functionality of the game.
     word_completion = "_" * len(word)
     guessed = False
     guessed_letters = []
@@ -29,7 +31,7 @@ def play(word):
     while not guessed and tries > 0:
         guess = input("Please guess a letter: ").upper()
         if len(guess) == 1 and guess.isalpha():
-#This will check which letters have been guessed or if the letter is valid.
+# This will check which letters have been guessed or if the letter is valid.
             if guess in guessed_letters:
                 print("You have already guessed this letter", guess)
             elif guess not in word:
@@ -40,8 +42,9 @@ def play(word):
                 print("Great Guess", guess, "is correct!")
                 guessed_letters.append(guess)
                 word_as_list = list(word_completion)
-                indices = [i for i, letter in enumerate(word) if letter == guess]
-                for index in indicies:
+                indices = [i for i, letter in enumerate(word) if letter == 
+                           guess]
+                for index in indices:
                     word_as_list[index] = guess
                 word_completion = "".join(word_as_list)
                 if "_" not in word_completion: 
@@ -72,7 +75,8 @@ def play(word):
 
 # Display Hangman function displays what the user will see as the game.
 def display_hangman(tries):
-    stages = [ """ 
+    stages = [
+                """ 
       +------------+
       |            |
       |
@@ -146,7 +150,8 @@ def display_hangman(tries):
 return stages[tries]
 
 
-# This is the main function that will tie the game together and allow it to function.
+# This is the main function that will tie the game together and allow it to 
+# function.
 def main():
     word = get_word()
     play(word)
