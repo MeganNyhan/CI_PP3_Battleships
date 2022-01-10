@@ -25,7 +25,7 @@ def play(word):
     guessed_words = []
     tries = 6
     # This is the introduction for the user.
-    print("Are you ready to play Hangman?")
+    print("Are you ready to play Hangman, the Irish county edition?")
     print(display_hangman(tries))
     print(word_completion)
     print(" \n")
