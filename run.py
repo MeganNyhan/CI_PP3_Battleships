@@ -38,14 +38,36 @@ def play(word):
                 guessed_letters.append(guess)
             else: 
                 print("Great Guess", guess, "is correct!")
+                guessed_letters.append(guess)
+                word_as_list = list(word_completion)
+                indices = [i for i, letter in enumerate(word) if letter == guess]
+                for index in indicies:
+                    word_as_list[index] = guess
+                word_completion = "".join(word_as_list)
+                if "_" not in word_completion: 
+                    guessed = True
 # This makes sure only letters are selected.
         elif len(guess) == len(word) and guess.isalpha():
-        
+            if guess in guessed_words:
+                print("You already guess this letter", guess)
+            elif guess != word:
+                print(guess, "is not the word.")
+                tries -= 1 
+                guessed_words.append(guess)
+            else:
+                guessed = True
+                word_completion = word
         else:
             print("Not a valid guess. Please guess again.")
         print(display_hangman(tries))
         print(word_completion)
         print("\n")
+# This part of the function will let the user know if their correct or not.
+    if guessed:
+        print("Congratulations! You guessed the word, you Win!!")
+    else:
+        print("Sorry, you have run out of tries. The word was " + word + 
+              ". Maybe next time!")
 
 
 # Display Hangman function displays what the user will see as the game.
@@ -122,3 +144,18 @@ def display_hangman(tries):
    """
 ]
 return stages[tries]
+
+
+# This is the main function that will tie the game together and allow it to function.
+def main():
+    word = get_word()
+    play(word)
+# This part will allow the user to replay the game if they want.
+    while input("Play Again? (Yes / No) ").upper() == "Yes":
+        word = get_word()
+        play(word)
+# The game will no continue to run again, aslong as the user types YES.
+
+# This part of code will make sure the game will run on the command line.
+if __name__ == "__main__":
+    main()
