@@ -162,6 +162,13 @@ def display_hangman(tries):
 
 
 def main():
+    print("""
+{}    {}    {}{}     {}    {}    {}}}}}    {}      {}    {}{}     {}    {}
+{}    {}   {}  {}    {}}}  {}   {}    {}   {}}}  {{{}   {}  {}    {}}}  {}
+{}{{}}{}  {}{{}}{}   {} {} {}   {}         {} {{}} {}  {}{{}}{}   {} {} {}
+{}    {}  {}    {}   {}  {{{}   {}  {{{{   {}  {}  {}  {}    {}   {}  {{{}
+{}    {}  {}    {}   {}    {}    {}}}}}    {}      {}  {}    {}   {}    {}
+        """)
     word = get_word()
     play(word)
     # This function runs the game or allows the user to replay.
