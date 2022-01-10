@@ -14,15 +14,38 @@ def get_word():
 
 
 def play(word):
-    # The play function holds most of the functionality of the game.
+# The play function holds most of the functionality of the game.
     word_completion = "_" * len(word)
     guessed = False
     guessed_letters = []
     guessed_words = []
     tries = 7
-    # This part of the function will guide the user through the game.
+# This part of the function will guide the user through the game.
     print("Are you ready to play hangman?")
     print(display_hangman(tries))
+    print(word_completion)
+    print("\n")
+# This is the main chunk of code here and will run until the game ends.
+    while not guessed and tries > 0:
+        guess = input("Please guess a letter: ").upper()
+        if len(guess) == 1 and guess.isalpha():
+#This will check which letters have been guessed or if the letter is valid.
+            if guess in guessed_letters:
+                print("You have already guessed this letter", guess)
+            elif guess not in word:
+                print("Your", guess, "is not in the word")
+                tries -= 1
+                guessed_letters.append(guess)
+            else: 
+                print("Great Guess", guess, "is correct!")
+# This makes sure only letters are selected.
+        elif len(guess) == len(word) and guess.isalpha():
+        
+        else:
+            print("Not a valid guess. Please guess again.")
+        print(display_hangman(tries))
+        print(word_completion)
+        print("\n")
 
 
 # Display Hangman function displays what the user will see as the game.
