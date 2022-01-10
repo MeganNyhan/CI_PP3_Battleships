@@ -170,7 +170,7 @@ def main():
 {}    {}  {}    {}   {}    {}    {}}}}}    {}      {}  {}    {}   {}    {}
         """)
     name = input("Enter your name: \n")
-    print("Welcome", name, "!")
+    print("Welcome", name,"!")
 
     word = get_word()
     play(word)
