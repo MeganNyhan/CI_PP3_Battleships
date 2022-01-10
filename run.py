@@ -169,6 +169,9 @@ def main():
 {}    {}  {}    {}   {}  {{{}   {}  {{{{   {}  {}  {}  {}    {}   {}  {{{}
 {}    {}  {}    {}   {}    {}    {}}}}}    {}      {}  {}    {}   {}    {}
         """)
+    name = input("Enter your name: \n")
+    print("Welcome", name, "!")
+
     word = get_word()
     play(word)
     # This function runs the game or allows the user to replay.
