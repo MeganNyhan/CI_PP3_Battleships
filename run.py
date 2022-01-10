@@ -125,14 +125,12 @@ def start_game():
         print("Letters that have been used so far: ", guessed_letters)
         print("Your guess so far: ", current_guess)
         user_guess = input("Type in your guess here: \n").upper()
-
 """ 
 The above command will make the guess uppercase.
 The while statement below will check if the user selected multiple letters or numbers.
 """
-
         while user_guess.isdigit() or len(user_guess) != 1:
-            user_guess = input("Numbers and multiple letters are not allowed. Please choose again: \n").upper()
+                user_guess = input("Numbers and multiple letters are not allowed. Please choose again: \n").upper()
 """
 This while statement below checks if the letter has already been guessed which will through an error.
 It will also add the letter to a list of letters previously used.
@@ -142,6 +140,52 @@ It will also add the letter to a list of letters previously used.
             user_guess = input("Type another letter here: \n").upper()
 
         guessed_letters.append(user_guess)
+ """
+ This will check if the user guess is correct and will check
+ to see how many guesses are left.
+ """       
+        if user_guess in word:
+            print("Correct! Letter", user_guess, "is in the word.")
+            
+            update_current_guess = ''
+            for i in range(len(word)):
+                if user_guess == word[i]
+                        update_current_guess += user_guess
+                else:
+                        update_current_guess += current_guess[i]
+            
+            current_guess = update_current_guess
+
+        else:
+            print("Wrong Letter", user_guess, "is not in the word.")
+            wrong_guesses += 1
+            max_guesses -= 1
+
+        print("Chances left:", max_guesses)
 
 
+def end_game():
+    if wrong_guesses == 7
+        print(HANGMAN[wrong_guesses])
+        print("The stickman has been hanged! You Lost!")
+        print("Correct word is:", word)
+    else:
+        print("You saved the Stickman! You won!")
+        print("Correct word is:", word)
 
+
+def play_again():
+    user_response = input("Do you want to play again? YES /NO: \n").upper()
+    if user_response == "YES":
+        return hangman()
+    else: 
+        print("Thank you for playing!")
+
+
+def hangman():
+    start_game()
+    end_game()
+    play_again()
+
+game_display()
+hangman()
