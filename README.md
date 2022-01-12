@@ -8,23 +8,14 @@
     1. [Target Audience](#target-audience)
     2. [User Requirements](#user-requirements)
     3. [User Stories](#user-stories)
-3. [Design](#design)
-    1. [Colour](#colour)
-    2. [Fonts](#fonts)
-    3. [Structure](#structure)
-    4. [Wireframes](#wireframes)
+    3. [Flow Chart](#flow-chart)
 4. [Technology](#technology)
     1. [Develpoment Languages Used](#develpoment-languages-used)
     2. [Frameworks and Tools used](#frameworks-and-tools-used)
 5. [Features](#features)
 6. [Testing](#testing)
-    1. [HTML Validation](#HTML-validation)
-    2. [CSS Validation](#CSS-validation)
-    3. [Accessibility Test](#accessibility-test)
-    4. [Performance](#performance)
-    5. [Device testing](#device-testing)
-    6. [Browser Compatibility](#browser-compatibility)
-    7. [Testing user stories](#testing-user-stories)
+    1. [Python Validation](#HTML-validation)
+    2. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -89,50 +80,10 @@
     <li> As the owner, I want the customers to easily locate the company.</li>
 </ol>
 
-<hr>
-
-## Design:
-
-### Design Choices
-<p> The company itself is a company with a wide target audience, and with this in mind I wanted to create a site that was accessible to everyone regardless of their technical ability, and ability to operate a computer. I wanted all designs to be simplistic, the navigation to be logical and seamless and for the accessibility to be a primary concern. </p>
-
-### Colour
-
-  <p>The color scheme that I have used throughout the website is taken directly from the brand guidelines that were available to be as a member of the organisation. To verfiy the contrast in colours were accessible I tested them on WebAIM which they all passed as readable. </p>
-
-<details><summary>Colours and Brand Guidelines</summary>
-  <img src="assets/images/mdrc-brand-guidelines.png"></details>
-
- ### Fonts
-  <p>Fonts used on the website were Open Sans Bold and Open Sans Light. Open sans bold was used for headings and open sans light was used in paragraphs.</p>
-
- ### Structure
-<p>The strucutre of this website was designed to be easily navagated through and easy to learn. I made sure that each page followed a similar structure but didn't comprimise the content that each page held. The following pages are within the structure of the site:</p>
-
-<ul>
-<li> A home Page = Basic information about the site, with an image of the building and a meet the team section.</li>
-<li> A Services page = The services page offers an overview of the services offered by the resource center. </li>
-<li> A gallery page = Offers the user a chance to see possible familiar faces taking part in local activites/ meetings.    This page aims to encourage the user to want to partake in the activites/ events themselves.</li>
-<li> A Contact Page = Gives the user contact information and a google maps view of where the building is. There is also a contact form for a user to use to contact the comapny.</li>
-
-<hr>
-
-### Wireframes
-
-<p>The wireframes included have evolved and changed since I originally drew them up over a week ago. This is due to the limitations of my skills thus far developed and changes I have made personally to the look of the site when building it.</p>
-
-<details><summary> Home Page</summary>
-<img src="assets/images/wireframe1.png"></details>
-
-<details><summary> Services Page</summary>
-<img src="assets/images/wireframe2.png"></details>
-
-<details><summary> Gallery Page</summary>
-<img src="assets/images/wireframe3.png"></details>
-
-<details><summary>Contact Page</summary>
-<img src="assets/images/wireframe4.png"></details>
-
+### Flow Chart
+<p> I used the flow chart to design a clear map of my site that would help me design the functionality of the site and the logic and guidence for user stories. I did this by using Lucid Chart</p>
+<details><summary>Flow Chart</summary>
+        <img src="assets/images/nav-bar.png"></details>
 <hr>
 
 ## Technology:
@@ -140,18 +91,13 @@
 ### Develpoment Languages Used
 
 <ul>
-<li> HTML5 </li>
-<li> CSS </li>
+<li> Python </li>
 </ul>
 
 ###  Frameworks and Tools used
 <ul>
-<li> Bootstrap  </li>
 <li> Git, GitHUb, and GitPod </li>
-<li> Balsamiq </li>
-<li> Google Fonts </li>
-<li> Font Awesome </li>
-<li> Google Developer Tools (for responsive site)</li>
+<li> Lucid Chart </li>
 </ul>
 
 <hr>
@@ -243,65 +189,11 @@
 
  ## Testing:
 
- ### HTML Validation
-<p> To Validate my HTML I used the W3C Markup Validation Service. All HTML passed its Validation with no errors but a few warnings as shown below in the pictures.</p>
+ ### Python Validation
+<p> To Validate my Python I used the PEP8 Online Validation Service. All python code passed its Validation with no errors but a few warnings as shown below in the pictures.</p>
 
-<details><summary>Home page</summary>
+<details><summary>Python Validation</summary>
 <img src="assets/images/home-val.png"></details>
-
-<details><summary>Services page</summary>
-<img src="assets/images/services-val.png"></details>
-
-<details><summary>Gallery page</summary>
-<img src="assets/images/gallery-val.png"></details>
-
-<details><summary>Contact page</summary>
-<img src="assets/images/contact-val.png"></details>
-
- ### CSS Validation
-<p> To Validate my CSS, I used the W3C Jigsaw CSS Validation Service. All CSS passed its Validation.</p><br>
-
-<details><summary>CSS</summary>
-<img src="assets/images/css-validation.png"></details>
-
-### Accessibility Test
-<p> To Validate my accessibility, I used the WAVE WebAIM web accessibility evaluation tool. I passed with no errors. My site was awarded the following: </p>
-<details><summary>Home page</summary>
-<img src="assets/images/home-page-wave.png"></details>
-<details><summary>Services page</summary> 
-<img src="assets/images/services-page-wave.png"></details>
-<details><summary>Gallery page</summary>
-<img src="assets/images/gallery-page-wave.png"></details>
-<details><summary>Contact page</summary>
-<img src="assets/images/contact-page-wave.png"></details>
-
-## Performance
-<p> To determine my sites performance, I used the Ligthouse web accessibility develepment tool. My site was awarded the following: </p>
-<details><summary>Home page</summary>
-<img src="assets/images/lighthouse-home-page.png"></details>
-<details><summary>Services page</summary> 
-<img src="assets/images/lighthouse-services-page.png"></details>
-<details><summary>Gallery page</summary>
-<p>My Gallery page has poor performance because of the amount of images that are embeded into the gallery grid.</p>
-<img src="assets/images/lighthouse-gallery-page.png"></details>
-<details><summary>Contact page</summary>
-<img src="assets/images/lighthouse-contact-page.png"></details>
-
-## Device Testing
-<p>The site was tested on the following decives using the responsive tool in Google Chromes Developer tools:</p>
-<ol>
-<li>MacBook Pro</li>
-<li>iPhone xr/11/12</li>
-<li>iPad (Regular size)</li>
-</ol>
-
-## Browser Compatibility
-<p> The site was also tested on the following browsers</p>
-<ol>
-<li>Google Chrome</li>
-<li>Safari</li>
-<li>Firefox</li>
-</ol>
 
 ### Testing User Stories
 
@@ -433,13 +325,19 @@
 <hr>
 
 ## Deployment:
-<p>In order to deploy my site I took the following steps using GitHub pages:</p>
+<p>In order to deploy my site I took the following steps using GitHub pages and Heroku:</p>
 
 <ol>
-<li>In the GitHub repository, select the "Settings" tab at the top of the page.</li>
-<li> Then on the left hand-side in the menu, select "Pages".</li>
-<li> The where it says source, used the dropdown menu to select "Main".</li>
-<li> After a few moments, refresh the website and you should have a pop-up come up to tell you that "Your site has been published" with your link coming after.</li>
+<li>Clone or Fork my repository.</li>
+<li> Create an account in the Heroku app, and within that create a new app.</li>
+<li> Add a "Config Var" with a key 'PORT' and value '8000' in Heroku's settings.</li>
+<li> Add buildbacks firstly for the python code, and then again for NodeJS.</li>
+<li> Then link the app to the repository using the following steps:</li>
+<ul>
+<li>Manually - Click to deploy branch </li><br>
+<p>or</p>
+<li> Enable automatic deploys and follow the prompted instructions.</li>
+</ul>
 </ol>
 <p> My link is: https://megannyhan.github.io/CI_PP1_MDRC/ </p>
 <hr>
@@ -458,63 +356,11 @@
 <li>Once you press enter your local clone is created.</li></ol>
 
 ## Credits:
-<p> Images not li nked and referenced below were designed and taken by the author.</p>
-
-### Site Images:
-<ul>
-
-<li>https://www.pexels.com/photo/woman-smiling-and-holding-teal-book-1181424/ Photo by Christina Morillo from Pexels</li>
-
-<li> https://pbs.twimg.com/profile_banners/1442473373020213248/1632836293/1500x500 Designed by Declan Meehan featured on Twitter</li>
-
-<li> Google Maps Link: https://www.google.com/maps/place/Milford+%26+District+Resource+Centre/@55.0895701,-7.6994824,15z/data=!4m2!3m1!1s0x0:0x1295c52d66ece440?sa=X&ved=2ahUKEwjz_M3qvPzzAhWSSsAKHQfTAC0Q_BJ6BAhcEAU Designed by Google maps</li>
-
-<li>https://www.pexels.com/photo/gray-and-black-laptop-computer-2764666/ Photo by Oleg Magni from Pexels </li>
-
-
-<li>https://thisismilford.com/wp-content/uploads/2020/02/mdrc10166-1024x768.jpg photo by Declan Meehan on MDRC.ie</li>
-</ul>
-
-### Gallery Images:
-
-<ul>
-<li>https://www.pexels.com/photo/unrecognizable-man-surfing-on-surfboard-in-ocean-7952882/ Photo by Инна Работягина from Pexels </li>
-
-<li>https://www.pexels.com/photo/fit-woman-practicing-yoga-in-studio-7593192/ Photo by Miriam Alonso from Pexels </li>
-
-<li> https://www.pexels.com/photo/couple-sitting-on-the-wooden-floor-7648357/ Photo by Artem Podrez from Pexels</li>
-
-<li>https://www.pexels.com/photo/positive-woman-in-boxing-gloves-7991649/ Photo by Annushka Ahuja from Pexels </li>
-
-<li>https://www.pexels.com/photo/multiethnic-couple-of-travelers-with-backpacks-7968269/ Photo by George Pak from Pexels </li>
-
-<li>https://www.pexels.com/photo/a-cyclist-holding-his-bicycle-5836952/ Photo by RODNAE Productions from Pexels </li>
-
-<li>https://www.pexels.com/photo/crop-ethnic-psychologist-writing-on-clipboard-during-session-5699456/ Photo by Alex Green from Pexels</li>
-
-<li>https://www.pexels.com/photo/photo-of-man-sitting-in-front-of-people-3184299/ Photo by fauxels from Pexels </li>
-
-<li>https://www.pexels.com/photo/group-of-multiethnic-people-gathering-around-female-speaker-in-studio-3856027/Photo by Matheus Bertelli from Pexels</li>
-
-<li>https://www.pexels.com/photo/women-sitting-on-chairs-inside-a-room-3719037/ Photo by Dani Hart from Pexels</li>
-
-<li>https://www.pexels.com/photo/food-man-people-woman-6591166/ Photo by cottonbro from Pexels</li>
-
-<li>https://www.pexels.com/photo/ground-group-growth-hands-461049/ Photo by Pixabay from Pexels</li>
-
-</ul>
-
 ### Source Code Used in Site
 
 <p> Due to limitations in my knowledge I googled certain code that I wanted to use for the site, see code listed below:</p>
 <ul>
-<li> The meet the team code (both HTML and CSS) was not taken directly but inspired by the following site: https://www.w3schools.com/howto/ howto_css_images_side_by_side.asp </li>
-
-<li> The map code was taken from the following code: https://stackoverflow.com/questions/5756440/aligning-google-map-with-text </li>
-
-<li> Code to help with the contact form was taken from bootstrap: https://getbootstrap.com/docs/5.1/forms/form-control/ </li>
-
-<li>I also referenced the Love-Running project to help with the grid for the Gallery Section, the social links from the footer and the contact form. It was not copied and pasted directly but it was used for help so I thought I would mention it.</li></ul>
+<li>I also referenced the Love-Sandwhiches project to help with the grid for the Gallery Section, the social links from the footer and the contact form. It was not copied and pasted directly but it was used for help so I thought I would mention it.</li></ul>
 <hr>
 
 ## Acknowledgements:
