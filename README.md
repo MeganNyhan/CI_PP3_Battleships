@@ -83,7 +83,7 @@
 ### Flow Chart
 <p> I used the flow chart to design a clear map of my site that would help me design the functionality of the site and the logic and guidence for user stories. I did this by using Lucid Chart</p>
 <details><summary>Flow Chart</summary>
-        <img src="assets/images/nav-bar.png"></details>
+        <img src="docs/flow_chart/flow_chart.jpeg"></details>
 <hr>
 
 ## Technology:
