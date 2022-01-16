@@ -85,21 +85,17 @@
 <hr>
 
 ## Features:
-<p>This site has four pages with a total of nine features.</p>
+<p>This site has only one page, but the flow of the game is broken into a few parts.</p>
 
-### Home Page
-
-#### Navigation Bar
+### Introduction
 
 <ul>
-    <li>The navigation bar is featured on all four of the pages that make up the website. The navigation bar includes links to the Home Page, the Services Page, the Gallery Page and the Contact Page, and also the logo that re-directs you to the home page. The navigation bar is identical on each page to allow for easy navigation for each of the users. The design of the navigation bar is simple to limit ambiguity with the user. </li>
-    <li> The main purpose of the navigation bar in the site is to allow the user easy travel through the site without the need of a previous or back button. </li>
-    <li> The navigation will also be responsive across all devices, which will also serve to the accessibilty of the site do a myriad of users.</li>
-    <li>The page that the users is on currently is underlined.</li>
+    <li>The introduction of the game is split into two parts - A logo that displayes the name of the game and the input section for the user to input their name.</li>
+    <li> This allows the user to easily see the name of the game they are playing and also input their name to the system so they can have a personalised experience of the site.</li>
     </ul>
- <p> User Stories covered : 4</p>
+ <p>User Stories covered : 4</p>
  <p>Site Owner's Stories covered: 3, 5 </p>
-        <details><summary>Navigation</summary>
+        <details><summary>Introduction</summary>
         <img src="assets/images/nav-bar.png"></details>
 
 #### Welcome Section
@@ -321,7 +317,7 @@
 <li> Enable automatic deploys and follow the prompted instructions.</li>
 </ul>
 </ol>
-<p> My link is: https://megannyhan.github.io/CI_PP1_MDRC/ </p>
+<p> My link is:   https://ci-pp3-hangman.herokuapp.com/ </p>
 <hr>
 
 <p> Forking the repository is done by the following steps:</p>
