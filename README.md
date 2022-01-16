@@ -93,19 +93,22 @@
     <li>The introduction of the game is split into two parts - A logo that displayes the name of the game and the input section for the user to input their name.</li>
     <li> This allows the user to easily see the name of the game they are playing and also input their name to the system so they can have a personalised experience of the site.</li>
     </ul>
- <p>User Stories covered : 4</p>
- <p>Site Owner's Stories covered: 3, 5 </p>
+ <p>User Stories covered : </p>
+ <p>Site Owner's Stories covered: </p>
         <details><summary>Introduction</summary>
-        <img src="assets/images/nav-bar.png"></details>
+        <img src=""></details>
 
-#### Welcome Section
+#### Game
 <ul>
-    <li>The welcome section of the site offers a quick introduction to the company.</li>
-    <li> It also include an image of the building so the office is easily identifiable and esay to locate.</li>
+    <li>The welcome section of the site offers the users to play the hangman game.</li>
+    <li> The user is prompted to input a single letter and if it is wrong the stickman is drawn.</li>
+    <li> If the guess is right then the user is told that they have guessed correctly.</li>
+    <li> If the user guesses all the letters right befire the stickman is hanged then the user is told they are the winner. If not the user is told that they lost because they ran out of guesses.</li>
+    <li> When the user is finnished with the game, the game will ask if the user wants to replay the game.<li>
     </ul>
-    <p> User Stories covered : 4</p>
-    <p>Site Owner's Stories covered: 2</p>
-        <details><summary>Welcome Section</summary>
+    <p> User Stories covered : </p>
+    <p>Site Owner's Stories covered: </p>
+        <details><summary>Game Display</summary>
         <img src="assets/images/welcome-section.png"></details>
 
 #### Meet the Team Section
@@ -317,7 +320,7 @@
 <li> Enable automatic deploys and follow the prompted instructions.</li>
 </ul>
 </ol>
-<p> My link is:   https://ci-pp3-hangman.herokuapp.com/ </p>
+<p> My link is: https://ci-pp3-hangman.herokuapp.com/ </p>
 <hr>
 
 <p> Forking the repository is done by the following steps:</p>
