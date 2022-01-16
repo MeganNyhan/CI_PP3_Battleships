@@ -309,7 +309,7 @@
 <p>In order to deploy my site I took the following steps using GitHub pages and Heroku:</p>
 
 <ol>
-<li>Clone or Fork my repository.</li>
+<li> Clone or Fork my repository.</li>
 <li> Create an account in the Heroku app, and within that create a new app.</li>
 <li> Add a "Config Var" with a key 'PORT' and value '8000' in Heroku's settings.</li>
 <li> Add buildbacks firstly for the python code, and then again for NodeJS.</li>
@@ -349,7 +349,5 @@
 <ul>
 <li> I would like to thank Mo Shami - my mentor - for his feedback and guidence whilst creating the project.</li>
 <li> I would like to thank those on the code institute slack channel for help with any issues I had.</li>
-<li> I would like to thank my manager who helped me with Site Owner's stories to help guide the creation and purpose of the site.</li>
-<li> I also want to say that I did intend on making a error 404 page but ran out of time.</li>
 </ul>
 </p>
