@@ -30,39 +30,35 @@
 ### User Experience:
 
 ### Target Audience 
-<p> The target audience for this site is quite broad. The centre itself offers printing, graphic design, bookeeping, social prescribing, room rental, and support for the over 65's. On the daily, the centre would have members of the public from varied backgrounds, technical abilities and age groups. </p>
+<p> The target audience for this site is quite broad. Hangman is a game that is easily understanded by those who play it, but as the topic of the game is teh Irish counties, this restricts those that can play the game. Because of this the target audience of this game is limited to residents of Ireland and those that have access to a computer - which is still quite broad. </p>
 
 ### User Requirements
-<p>As I have mentioned, we have a very large/ varied target audience, and becasue of this the site has to be simple in design and very accessible. They way I have tackled this are as follows:</p>
+<p>As I have mentioned, we have a very large/ yet restricted target audience, and becasue of this the site has to be simple in design and very accessible, to those who have computers and have geographical knowledge of Ireland. Aiding this knowledge I have created a game with:</p>
 <ul>
-    <li>Simple navigation that is non-ambiguous</li>
-    <li>Have skimmable text in paragraphs so that users can easily and quickly find what they are looking for.</li>
-    <li>Simple presentation of content on the page that make logical sense. </li>
-    <li>A functional responsive wesite that allow the user to view the site regardless of screen size. </li>
-    <li>A straightforward and professional form that allows users to easily contact the business.</li>
+    <li> Straightforward navigation through intro and game play, including a possibility to replay the game.</li>
+    <li>The game has real time feedback for users which allows them to understand if their guess is right, wrong or invalid.</li>
+    <li> The option to personalise the game by entering your name. <li>
 </ul>
 
 ### User Stories
 
 ### First time and Recurring Stories
 <ol>
-    <li>As a user, I want to be able to view the services that I can avail of in my local community.</li>
-    <li>As a user, I want to know where I can get a avail of printing in my area.</li>
-    <li>As a user with the view of visting the office, I want to know exactly where it is located.</li>
-    <li>As a user who not tech savy, I want to be able to read, understand and navigate an easy and understandable website.</li>
-        <li>As a user who doesn't understand websites, I want to easily find a phone number for the office so I can contact them.
+    <li>As a user, I want to be able to play the hangman game that will test my knowledge of the Irish counties.</li>
+    <li>As a user, I want to be able to use the game as a spelling test to revise for Irish Geography quizes at school.</li>
+    <li>As a user, I would like to be able to personalise the game and enter my name.</li>
+    <li>As a user who not tech savy, I want to be able know heo to play the game with very little technical advancity.</li>
+        <li>As a user who doesn't understand websites, I want to easily see if I have guessed the question wrong or right.
     </li>
-    <li>As a user who owns a local business, I want to contact them get a quote for the price of business cards.</li>
+    <li>As a user, i want real time feedback telling me if my guess was right or wrong.</li>
 </ol>
 
 ### Site's Owner Stories
 <ol>
-    <li>As the owner of the site, I want my potential customers to have a place where they can view the services I offer. </li>
-    <li>As the owner, I want to have an online platform that can be a hub of information for the locals in the area.</li>
-    <li>As the owner, I want a website that is accessible to anyone.</li>
-    <li>As the owner, I want a site that will encourage my customers to use the services we have to offer.</li>
-    <li> As the owner, I want a site that will have the potential to be built upon in the future.</li>
-    <li> As the owner, I want the customers to easily locate the company.</li>
+    <li>As the owner of the site, I want my potential users to have a place where they can enter their name that will be linked to a database that will show me how long the user has stayed on the website.</li>
+    <li>As the owner, I want to have a game that will create a positive experience for the players of the game.</li>
+    <li>As the owner, I want a game that is accessible to anyone.</li>
+    <li>As the owner, I want a game that, will offer the user real time feedback and will record if the user guessed the word right or got it wrong in a database.</li>
 </ol>
 
 ### Flow Chart
@@ -83,6 +79,7 @@
 <ul>
 <li> Git, GitHUb, and GitPod </li>
 <li> Lucid Chart </li>
+<li> Heroku </li>
 </ul>
 
 <hr>
