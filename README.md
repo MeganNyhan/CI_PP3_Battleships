@@ -2,8 +2,6 @@
  
 [Veiw the project here](https://love-battleship.herokuapp.com/)
 1. [Project Goals](#project-goals)
-    1. [User Goals](#user-goals)
-    2. [Site Owner's Goals](#site-owners-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
     2. [User Requirements](#user-requirements)
@@ -22,24 +20,11 @@
 11. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
-### User Goals
-
 <ul>
-    <li>Finding what <strong>services are availbale</strong> to them (the members of the local community) in their local community.
-    </li>
-    <li>Be able to read a detailed summary of services available, and <strong>when and where</strong> they are on.</li>
-    <li>Find <strong>contact information</strong> for the resource centre to learn more about services</li>
-    <li>Find the <strong>location</strong> of the centre</li>
+    <li> The main goal of this project is to allow users to play a hangmna game beased on the counties of Ireland so they can test their knowledge.</li>
+    <li>It also aims to create a game with a good user experience that offers real world feedback to the user.</li>
+    <li> Finally the game is connect to a database (google spreadsheets) to allow the owner of the game to host a platform that will gather user information that could be use for the site's analytics.</li>
 </ul>
-
-### Site Owner's Goals
-<ul>
-    <li> Increase traffic to the website.</li>
-    <li> Increase profits from sales of services in the office through increased promotion of them through the website.</li>
-    <li> Increased public awarness of services offered to the public.</li>
-    <li> Offer a direct point of contact to new or current customers from the website.</li>
-    </ul>
-
 <hr>
 
 ### User Experience:

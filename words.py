@@ -23,7 +23,7 @@ word_list = [
     'tipperary', 
     'waterford', 
     'cavan',
-    'donegal', 
+    'donegal',
     'monaghan', 
     'antrim', 
     'armagh', 
