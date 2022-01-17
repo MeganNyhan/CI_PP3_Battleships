@@ -181,13 +181,13 @@
 
 ### Testing Site Owner's Stories
 
-    1."As the owner of the site, I want my potential customers to have a place where they can view the services I offer."
+    1."As the owner of the site, I want my potential users to have a place where they can enter their name that will be linked to a database that will show me how long the user has stayed on the website."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Services information grid| Navigate to the Services page, locate the services grid | Finds a service they are interested in and goes to the contact page using contact button | Works as expected |
-| Nav- Locate services and then contact button | On any page scroll up to the nav bar | Find the list of services | Works as expected |
+|Intro page offers name enter input | User enters their name in the prompted input and is addressed personally | Enjoys the personalised aspect of the game |   Works as expected |
 <details><summary>User Testing 7</summary>
-<img src="assets/images/user-story-7.png"></details>
+<img src="docs/flow_chart/features/intro_screen"></details>
+<hr>
 <hr>
 
     2."As the owner, I want to have an online platform that can be a hub of information for the locals in the area."
