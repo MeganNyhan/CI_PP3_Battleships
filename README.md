@@ -109,7 +109,7 @@
     <p> User Stories covered : </p>
     <p>Site Owner's Stories covered: </p>
         <details><summary>Game Display</summary>
-        <img src="assets/images/welcome-section.png"></details>
+        <img src=""></details>
 <hr>
 
  ## Testing:

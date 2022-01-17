@@ -1,24 +1,23 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
-
 import random
 from words import word_list
 
 
-# Get word function.
-# This will generate random words from my words.py list.
-# It will also return the users input with an uppercase.
 def get_word():
+    """
+    Get word function.
+    This will generate random words from my words.py list.
+    It will also return the users input with an uppercase.
+    """
     word = random.choice(word_list)
     return word.upper()
 
-# Play function.
-# This is the main function that will run the game.
-# This is also the introduction to the game for the user.
-
 
 def play(word):
+    """
+    Play function.
+    This is the main function that will run the game.
+    This is also the introduction to the game for the user.
+    """
     word_completion = "_" * len(word)
     guessed = False
     guessed_letters = []
@@ -75,11 +74,15 @@ def play(word):
     if guessed:
         print("Congratulations, you guessed the CORRECT word. You WON!")
     else:
-        print("Sorry, you have run out of tries"
+        print("Sorry, you have run out of tries" 
               "the word was " + word + ". Why not try again!")
 
 
 def display_hangman(tries):
+    """
+    This function will display the main hangman game.
+    As the user plays each stage will appear depending on the guess.
+    """
     stages = [  # This is the hangman visual. Final state = full body.
                 """
       +------------+
@@ -92,7 +95,7 @@ def display_hangman(tries):
       +--------+
    """,
                 # This is the second last state with just the arm missing.
-                """   
+                """
       +------------+
       |            |
       |            O
@@ -162,6 +165,10 @@ def display_hangman(tries):
 
 
 def main():
+    """
+    This will prin the logo for the game.
+    This appears in the main introduction before the game starts.
+    """
     print("""
 {}    {}    {}{}     {}    {}    {}}}}}    {}      {}    {}{}     {}    {}
 {}    {}   {}  {}    {}}}  {}   {}    {}   {}}}  {{{}   {}  {}    {}}}  {}
