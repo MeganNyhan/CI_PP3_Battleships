@@ -135,23 +135,21 @@
 </details>
 <hr>
 
-    2."As a user, I want to know where I can get a avail of printing in my area."
+    2."As a user, I want to be able to use the game as a spelling test to revise for Irish Geography quizes at school."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Services information grid| Navigate to the Services page, locate the services grid and read prinitng info box | Finds the printing box and goes to the contact page using contact button |   Works as expected |
-| Nav- Locate services page, services list and then contact button | On any page scroll up to the nav bar | Find the list of services | Works as expected |
+| Game Dispay | Once passed the introduction screen the user will enter the game | Plays the game and tests their knowledge to the users satisfaction. |    Works as expected |
 <details><summary>User Testing 2</summary>
-<img src="assets/images/user-story-2.1.png">
-<img src="assets/images/user-story-2.2.png"></details>
+<img src="docs/flow_chart/features/game_play.png">
+</details>
 <hr>
 
-    3."As a user with the view of visting the office, I want to know exactly where it is located."
+    3."As a user, I would like to be able to personalise the game and enter my name."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Information and Google Maps| Navigate to the Contact page, locate the contact information and google maps box | Finds the location and travels to the office |   Works as expected |
-|Google Maps in contact page and other contact information | On any page scroll up to the nav bar | Find the comapnies contact inforamtion and google maps box | Works as expected |
+|Intro page offers name enter input | User enters their name in the prompted input and is addressed personally | Enjoys the personalised aspect of the game |   Works as expected |
 <details><summary>User Testing 3</summary>
-<img src="assets/images/user-story-3.png"></details>
+<img src="docs/flow_chart/features/intro_screen"></details>
 <hr>
 
     4."As a user who not tech savy, I want to be able to read, understand and navigate an easy and understandable website."
