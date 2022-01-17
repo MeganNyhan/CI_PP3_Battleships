@@ -152,35 +152,32 @@
 <img src="docs/flow_chart/features/intro_screen"></details>
 <hr>
 
-    4."As a user who not tech savy, I want to be able to read, understand and navigate an easy and understandable website."
+    4."As a user who not tech savy, I want to be able know how to play the game with very little technical advancity."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Navigation| Navigate to any pages in the site, and perform desired goal | Finds the information they wanted | Works as expected |
-|Nav bar on top of each page | On any page scroll up to the nav bar | Find any information available to the user | Works as expected |
+|Simple Navigation through prompts the user has to answer| Once the user is playing the game the user can't move on without answering the prompts on the screen| Able to play the game without frustration and confusion| Works as expected |
 <details><summary>User Testing 4</summary>
-<img src="assets/images/nav-bar.png">
-<p> The nav bar is simple in design and offers 4 options</p></details>
-
-
+<img src="docs/flow_chart/features/intro_screen">
+<img src="docs/flow_chart/features/game_play">
+<img src="docs/flow_chart/features/loser_screen">
+<img src="docs/flow_chart/features/winner_screen"></details>
 <hr>
 
-    5."As a user who doesn't understand websites, I want to easily find a phone number for the office so I can contact them."
+    5."As a user who doesn't understand websites, I want to easily see if I have guessed the question wrong or right."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Information | Navigate to the Contact page, locate the contact information and phone number or contact form | Finds the phone number and calls the office or uses the contact form to conact the office via email| Works as expected |
-|Contact Information and contact form in contact page| On any page scroll up to the nav bar | Finds the companies contact inforamtion | Works as expected |
+| Feedback through game play | Once playing the user will be told if their guess is right or wrong by the game| Guesses the word right depending on the answer they have guessed| Works as expected |
 <details><summary>User Testing 5</summary>
-<img src="assets/images/user-story-5.png"></details>
+<img src="docs/flow_chart/features/game_feedback"></details>
 
 <hr>
 
-    6."As a user who owns a local business, I want to contact them get a quote for the price of business cards."
+    6."As a user, i want real time feedback telling me if my guess was right or wrong."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Services Page, and Graphic Design box with contact button | Navigate to the Services page, locate the services information and the contact us button | Finds the phone number when redirected to the phone number and calls the office or uses the contact form to ask for a qoute |
-|Services information grid, Contact Information and contact form in contact page| On any page scroll up to the nav bar | Finds the companies services information and contact inforamtion to ask for a qoute easily | Works as expected |
+| Feedback through game play | Once playing the user will be told if their guess is right or wrong by the game| Guesses the word right depending on the answer they have guessed| Works as expected |
 <details><summary>User Testing 6</summary>
-<img src="assets/images/user-story-6.png"></details>
+<img src="docs/flow_chart/features/game_feedback"></details>
 
 ### Testing Site Owner's Stories
 
