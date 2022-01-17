@@ -184,19 +184,19 @@
     1."As the owner of the site, I want my potential users to have a place where they can enter their name that will be linked to a database that will show me how long the user has stayed on the website."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Intro page offers name enter input | User enters their name in the prompted input and is addressed personally | Enjoys the personalised aspect of the game |   Works as expected |
+|Intro page offers name enter input | User enters their name in the prompted input and is addressed personally | Enjoys the personalised aspect of the game |  Works as expected |
 <details><summary>User Testing 7</summary>
 <img src="docs/flow_chart/features/intro_screen"></details>
 <hr>
 <hr>
 
-    2."As the owner, I want to have an online platform that can be a hub of information for the locals in the area."
+    2."As the owner, I want to have a game that will create a positive experience for the players of the game."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Home Page | Allows the owner to easily up date and change the information displayed on the site.| Works as expected |
-| Home page is the landing page which users will land on firat | Update the website as needed | New information displayed | Works as expected |
+|Game play | simple navigation and game play | The game is simple but fun and aims to create a positive experience | Works as expected |
+
 <details><summary>User Testing 8</summary>
-<img src="assets/images/home-user-story.png">
+<img src="docs/flow_chart/features/game_play">
 </details>
 <hr>
 
@@ -210,7 +210,7 @@
 <p> The Navigation bar is simple and easily used by anyone.</p></details>
 <hr>
 
-    4."As the owner, I want a site that will encourage my customers to use the services we have to offer."
+    4."As the owner, I want a game that, will offer the user real time feedback and will record if the user guessed the word right or got it wrong in a database."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |Navigation, Services Page, and Services Grid| Navigate to the services page where you can view the services grid| Finds the information on the services they wanted | Works as expected |
@@ -220,23 +220,6 @@
 </details>
 <hr>
 
-    5."As the owner, I want a site that will have the potential to be built upon in the future."
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Nav bar with the option of expanding to hold more pages| Navigation bar is wide and I as a developer intend to add a blog section in the future among other pages | To have more options added to the nav bar without comprimising the readability| Works in progress |
-<details><summary>User Testing 11</summary>
-<img src="assets/images/nav-bar.png">
-<p> The Navigation bar is simple and can easily be extended on any device..</p>
-</details>
-<hr>
-
-    6."As the owner, I want the customers to easily locate the company."
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-|Contat Page with a adress and google maps link | Navigate (using the nav bar) to the Contact Page and find at the top of the page an adress, and when scrolled down the user will find a map too | Find the location easily and travels to the office | Works as Expected|
-|Contact page with address and map, also a phone number for back up incase someone doesn't understand the map| On any page scroll up to the nav bar and find the contact page | Finds the companies address and other location informtion | Works as expected |
-<details><summary>User Testing 12</summary>
-<img src="assets/images/user-story-3.png"></details>
 
 ## Bugs:
 
