@@ -47,8 +47,8 @@
     <li>As a user, I want to be able to play the hangman game that will test my knowledge of the Irish counties.</li>
     <li>As a user, I want to be able to use the game as a spelling test to revise for Irish Geography quizes at school.</li>
     <li>As a user, I would like to be able to personalise the game and enter my name.</li>
-    <li>As a user who not tech savy, I want to be able know heo to play the game with very little technical advancity.</li>
-        <li>As a user who doesn't understand websites, I want to easily see if I have guessed the question wrong or right.
+    <li>As a user who not tech savy, I want to be able know how to play the game with very little technical advancity.</li>
+    <li>As a user who doesn't understand websites, I want to easily see if I have guessed the question wrong or right.
     </li>
     <li>As a user, i want real time feedback telling me if my guess was right or wrong.</li>
 </ol>
@@ -93,8 +93,8 @@
     <li>The introduction of the game is split into two parts - A logo that displayes the name of the game and the input section for the user to input their name.</li>
     <li> This allows the user to easily see the name of the game they are playing and also input their name to the system so they can have a personalised experience of the site.</li>
     </ul>
- <p>User Stories covered : </p>
- <p>Site Owner's Stories covered: </p>
+ <p>User Stories covered : 3</p>
+ <p>Site Owner's Stories covered: 1</p>
         <details><summary>Introduction</summary>
         <img src="docs/flow_chart/features/intro_screen.png"></details>
 
@@ -106,8 +106,8 @@
     <li> If the user guesses all the letters right befire the stickman is hanged then the user is told they are the winner. If not the user is told that they lost because they ran out of guesses.</li>
     <li> When the user is finnished with the game, the game will ask if the user wants to replay the game.<li>
     </ul>
-    <p> User Stories covered : </p>
-    <p>Site Owner's Stories covered: </p>
+    <p> User Stories covered: 1, 2, 4, 5, 6</p>
+    <p>Site Owner's Stories covered: 2, 3, 4</p>
         <details><summary>Game Display</summary>
         <img src="docs/flow_chart/features/game_play.png"></details>
         <details><summary>Winner</summary>
@@ -126,14 +126,13 @@
 
 ### Testing User Stories
 
-    1."As a user, I want to be able to view the services that I can avail of in my local community."
+    1."As a user, I want to be able to play the hangman game that will test my knowledge of the Irish counties."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Services information grid| Navigate to the Services page, locate the services grid | Finds a service they are interested in and goes to the contact page using contact button |    Works as expected |
-| Nav- Locate services and then contact button | On any page scroll up to the nav bar | Find the list of services | Works as expected |
+| Game Dispay | Once passed the introduction screen the user will enter the game | Plays the game and tests their knowledge to the users satisfaction. |    Works as expected |
 <details><summary>User Testing 1</summary>
-<img src="assets/images/user-story-1.jpg">
-<img src="assets/images/user-story-2.jpg"></details>
+<img src="docs/flow_chart/features/game_play.png">
+</details>
 <hr>
 
     2."As a user, I want to know where I can get a avail of printing in my area."
