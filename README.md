@@ -224,10 +224,7 @@
 ## Bugs:
 
 | **Bug** | **Fix** |
-| ----------- | ----------- |
-| Website Fonts don't work in Firefox and safari| Choose back-up font for other browsers |
-| Website moves to the left on larger monitors | Add another media quiery for larger than laptop screens |
-| The map moves to the left on mobile repository | change the width of the map in the html to fit desktop and tablet then mobile again and push footer down|
+<p> i have not found any bugs in my code yet.</p>
 <hr>
 
 ## Deployment:
@@ -275,4 +272,5 @@
 <li> I would like to thank Mo Shami - my mentor - for his feedback and guidence whilst creating the project.</li>
 <li> I would like to thank those on the code institute slack channel for help with any issues I had.</li>
 </ul>
+<p> I would also like to use this section to explore what I would do if I had more time / expertise. I would add the ability for the user to decide to do a beginer or experienced version of the game. I believe that adding an easy or hard aspect to the game would sdvance the user stories more but as the game sits now the stories aren't comprimised and are still fullfilled.</p>
 </p>
