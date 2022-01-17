@@ -96,7 +96,7 @@
  <p>User Stories covered : </p>
  <p>Site Owner's Stories covered: </p>
         <details><summary>Introduction</summary>
-        <img src=""></details>
+        <img src="docs/flow_chart/features/intro_screen.png"></details>
 
 #### Game
 <ul>
@@ -109,7 +109,11 @@
     <p> User Stories covered : </p>
     <p>Site Owner's Stories covered: </p>
         <details><summary>Game Display</summary>
-        <img src=""></details>
+        <img src="docs/flow_chart/features/game_play.png"></details>
+        <details><summary>Winner</summary>
+        <img src="docs/flow_chart/features/winner_screen.png"></details>
+        <details><summary>Loser</summary>
+        <img src="docs/flow_chart/features/loser_screen.png"></details>
 <hr>
 
  ## Testing:
