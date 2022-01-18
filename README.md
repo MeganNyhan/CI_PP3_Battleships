@@ -261,9 +261,12 @@
 ## Credits:
 ### Source Code Used in Site
 
-<p> Due to limitations in my knowledge I googled certain code that I wanted to use for the site, see code listed below:</p>
+<p> Due to limitations in my knowledge I used youtube tutorials to guide me with creating the game:</p>
 <ul>
-<li>I also referenced the Love-Sandwhiches project to help with the grid for the Gallery Section, the social links from the footer and the contact form. It was not copied and pasted directly but it was used for help so I thought I would mention it.</li></ul>
+<li>https://www.youtube.com/watch?v=m4nEnsavl6w&t=474s</li>
+<li>https://www.youtube.com/watch?v=5x6iAKdJB6U</li>
+</ul>
+<p> I used these videos soley as a guide I did not copy and paste.</p>
 <hr>
 
 ## Acknowledgements:
