@@ -1,5 +1,7 @@
 import random
 from words import word_list
+import gspread
+from google.oauth2.service_account import credentials
 
 
 def get_word():
