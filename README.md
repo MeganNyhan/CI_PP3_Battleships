@@ -6,7 +6,10 @@
     1. [Target Audience](#target-audience)
     2. [User Requirements](#user-requirements)
     3. [User Stories](#user-stories)
-    3. [Flow Chart](#flow-chart)
+    4. [Flow Chart](#flow-chart)
+3. [Data Modeling](#data-modeling)
+    1. [User Manual](#user-manual)
+    2. [Google Spreadsheets](#google-spreadsheets)
 4. [Technology](#technology)
     1. [Develpoment Languages Used](#develpoment-languages-used)
     2. [Frameworks and Tools used](#frameworks-and-tools-used)
@@ -14,10 +17,10 @@
 6. [Testing](#testing)
     1. [Python Validation](#HTML-validation)
     2. [Testing user stories](#testing-user-stories)
-8. [Bugs](#Bugs)
-9. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
+7. [Bugs](#Bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
 <ul>
@@ -66,6 +69,20 @@
 <details><summary>Flow Chart</summary>
         <img src="docs/flow_chart/flow_chart.jpeg"></details>
 <hr>
+
+## Data Modeling
+<p> After some research before starting the project, I decided that I didn't need to use Object Orientated Programming. The way I understand OOP is that it is used to seperate data into useful sections then within the programe section off the functions that manipulate the data into methods, so you can control how the data is managed and also have the code in neat sections. I felt that with the hangman game I wouldn't use this. I don't have individually functioning parts as everything will work together.</p>
+
+## User Manual:
+<ol>
+<li>Once the user enters their name into the game the user will be able to play the game. The code for this game will generate a random letter from the words.py string. This word has to be guessed by the player.<li>
+<li> The user has 6 attempts at guessing the word - If the player guesses a letter that is in the word the letter will appear in the word display to help the player further.</li>
+<li>If the letter they guessed is not in the word the stickman will be drawn to create the hangman display.</li>
+<li> If the player end up guessing the correct word in the given amount of guesses then the player wins.</li>
+<li> If not the stickman is hanged and the user loses.</li>
+</ol>
+
+## Google Spreadsheets
 
 ## Technology:
 
@@ -224,7 +241,7 @@
 ## Bugs:
 
 | **Bug** | **Fix** |
-<p> i have not found any bugs in my code yet.</p>
+<p> I have not found any bugs in my code yet.</p>
 <hr>
 
 ## Deployment:
