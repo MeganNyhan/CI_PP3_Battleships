@@ -1,8 +1,15 @@
 
 # Imports
-
 import random
+import gspread
 from words import word_list
+
+sa = gspread.service_account(filename="keys.json")
+sh = sa.open("pp3_hangman")
+
+wks = sh.worksheet("user")
+
+wks.update('A5', 'Maia')
 
 
 def get_word():
@@ -180,6 +187,7 @@ def main():
 {}    {}  {}    {}   {}    {}    {}}}}}    {}      {}  {}    {}   {}    {}
         """)
     name = input("Enter your name: \n")
+    wks.update('A5', name)
     print("Welcome", name, "!")
 
     word = get_word()

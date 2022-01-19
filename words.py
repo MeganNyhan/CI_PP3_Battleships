@@ -1,7 +1,5 @@
 word_list = [
-    'galway', 
-    'leitrim', 
-    'mayo', 
+    'galway', 'leitrim', 'mayo', 
     'roscommon', 
     'sligo', 
     'carlow',
