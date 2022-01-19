@@ -22,7 +22,13 @@ service = build('sheets', 'v4', credentials=creds)
 # Call the Sheets API
 sheet = service.spreadsheets()
 result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                            range="user!a2:b2").execute()
+                            range="user!a3:b3").execute()
 values = result.get('values', [])
+
+name = [['Mark']]
+
+request = sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, 
+                            range="user!a3:b4", valueInputOption="USER_ENTERED", body={"values": name}).execute()
+
 print(values)
 
