@@ -1,6 +1,13 @@
 import random
 from words import word_list
 
+import gspread
+
+sa = gspread.service_account(filename="creds.json")
+sh = sa.open("pp3_hangman")
+
+wks = sh.worksheet("user")
+
 
 def get_word():
     """
@@ -178,6 +185,7 @@ def main():
         """)
     name = input("Enter your name: \n")
     print("Welcome", name, "!")
+    wks.update_acell('a4', name)
 
     word = get_word()
     play(word)
