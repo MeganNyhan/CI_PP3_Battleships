@@ -85,6 +85,8 @@
 ## Google Spreadsheets:
 
 <p>I used Google Spreadsheets as a database that would record the information logged by the players of the game - ie. Name and the amount of times they replayed the gaem. I thought recording this data in particular would help with website analytics. The company that runs the game could see if the game was replayed and fun for the user or If they got frustrated and didn't play again.</p>
+<details><summary>Google Spreadsheet</summary>
+        <img src="docs/flow_chart/google_spreadsheet/google_sheets_database.png"></details>
 
 ## Technology:
 
@@ -141,7 +143,8 @@
 <p> To Validate my Python I used the PEP8 Online Validation Service. All python code passed its Validation with no errors but a few warnings as shown below in the pictures.</p>
 
 <details><summary>Python Validation</summary>
-<img src="assets/images/home-val.png"></details>
+<img src="docs/python_validation.png"></details>
+<hr>
 
 ### Testing User Stories
 
