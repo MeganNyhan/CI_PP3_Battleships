@@ -25,10 +25,9 @@ result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
                             range="user!a3:b3").execute()
 values = result.get('values', [])
 
-name = [{name}]
+name = [['harry']]
 
 request = sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, 
-                            range="user!a3:b4", valueInputOption="USER_ENTERED", body={"values": name}).execute()
+                            range="user!a3:b4", valueInputOption="USER_ENTERED", body={"values":name}).execute()
 
 print(values)
-
