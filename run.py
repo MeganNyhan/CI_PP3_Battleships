@@ -1,15 +1,24 @@
 
-# Imports
+"""
+Imports
+"""
 import random
 import gspread
 from words import word_list
 
+# This code is for linking the google spread
 sa = gspread.service_account(filename="keys.json")
 sh = sa.open("pp3_hangman")
 
 wks = sh.worksheet("user")
 
-wks.update('A5', 'Maia')
+
+def next_available_row(worksheet):
+    """
+    This function will return the number of the next empty row.
+    """
+    str_list = list(filter(None, worksheet.col_values(1)))
+    return len(str_list)+1
 
 
 def get_word():
@@ -187,17 +196,19 @@ def main():
 {}    {}  {}    {}   {}    {}    {}}}}}    {}      {}  {}    {}   {}    {}
         """)
     name = input("Enter your name: \n")
-    wks.update('A5', name)
+    row = next_available_row(wks)
+    wks.update_cell(row, 1, name)
     print("Welcome", name, "!")
 
     word = get_word()
     play(word)
     # This function runs the game or allows the user to replay.
+    wks.update_cell(row, 2, "NO")
     while input("Play Again? (YES / NO) ").upper() == "YES":
+        wks.update_cell(row, 2, "YES")
         word = get_word()
         play(word)
 
 
 if __name__ == "__main__":
     main()
-
