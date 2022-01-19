@@ -49,7 +49,7 @@ def play(word):
     print(" \n")
     while not guessed and tries > 0:
         # This is the input for the users guesses.
-        guess = input("Please guess a letter: ").upper()
+        guess = input("Please guess a letter: \n").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
                 print("You already guessed that letter", guess)
@@ -204,7 +204,7 @@ def main():
     play(word)
     # This function runs the game or allows the user to replay.
     wks.update_cell(row, 2, "NO")
-    while input("Play Again? (YES / NO) ").upper() == "YES":
+    while input("Play Again? (YES / NO) \n").upper() == "YES":
         wks.update_cell(row, 2, "YES")
         word = get_word()
         play(word)
