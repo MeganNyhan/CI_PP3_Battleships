@@ -22,6 +22,10 @@
 9. [Credits](#credits)
 10. [Acknowledgements](#acknowledgements)
 
+<img src="docs/mock-up/mock-up.png" alt="Mockup of my website across multiple devices">
+<a href="https://ci-pp3-hangman.herokuapp.com/" alt="link to hangman game" target="_blank" rel="noopener">Link to My Hangman Game</a>
+
+
 ## Project Goals 
 <ul>
     <li> The main goal of this project is to allow users to play a hangmna game beased on the counties of Ireland so they can test their knowledge.</li>
