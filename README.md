@@ -69,7 +69,7 @@
     <li>As the owner, I want a game that, will offer the user real time feedback and will record if the user guessed the word right or got it wrong in a database.</li>
 </ol>
 
-## Technical Design 
+## Technical Design
 
 ### Flow Chart
 <p> I used the flow chart to design a clear map of my site that would help me design the functionality of the site and the logic and guidence for user stories. I did this by using Lucid Chart</p>
