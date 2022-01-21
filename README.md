@@ -6,10 +6,11 @@
     1. [Target Audience](#target-audience)
     2. [User Requirements](#user-requirements)
     3. [User Stories](#user-stories)
-    4. [Flow Chart](#flow-chart)
-3. [Data Modeling](#data-modeling)
-    1. [User Manual](#user-manual)
-    2. [Google Spreadsheets](#google-spreadsheets)
+3. [Technical Design](#technial-design)
+    1. [Flow Chart](#flow-chart)
+    2. [Data Modeling](#data-modeling)
+    3. [User Manual](#user-manual)
+    4. [Google Spreadsheets](#google-spreadsheets)
 4. [Technology](#technology)
     1. [Develpoment Languages Used](#develpoment-languages-used)
     2. [Frameworks and Tools used](#frameworks-and-tools-used)
@@ -67,6 +68,8 @@
     <li>As the owner, I want a game that is accessible to anyone.</li>
     <li>As the owner, I want a game that, will offer the user real time feedback and will record if the user guessed the word right or got it wrong in a database.</li>
 </ol>
+
+## Technical Design 
 
 ### Flow Chart
 <p> I used the flow chart to design a clear map of my site that would help me design the functionality of the site and the logic and guidence for user stories. I did this by using Lucid Chart</p>
