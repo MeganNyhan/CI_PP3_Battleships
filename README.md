@@ -60,7 +60,6 @@
     <li>As a user who doesn't understand websites, I want to easily see if I have guessed the question wrong or right.
     </li>
     <li>As a user, i want real time feedback telling me if my guess was right or wrong.</li>
-</ol>
 
 ### Site's Owner Stories
 <ol>
@@ -233,7 +232,6 @@
 <details><summary>User Testing 7</summary>
 <img src="docs/flow_chart/features/intro_screen"></details>
 <hr>
-<hr>
 
     2."As the owner, I want to have a game that will create a positive experience for the players of the game."
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -250,11 +248,12 @@
 |-------------|------------|---------------------|-------------------|
 | Simple style Navigation | Navigation allows users a restricted choice (Restricted as it doesn't allow too many decisions) | Play the game easily |   Works as expected |
 <details><summary>User Testing 9</summary>
-<details><summary>User Testing 4</summary>
+<summary>User Testing 4</summary>
 <img src="docs/flow_chart/features/intro_screen">
 <img src="docs/flow_chart/features/game_play">
 <img src="docs/flow_chart/features/loser_screen">
-<img src="docs/flow_chart/features/winner_screen"></details>
+<img src="docs/flow_chart/features/winner_screen">
+</details>
 <hr>
 
     4."As the owner, I want a game that, will offer the user real time feedback."
