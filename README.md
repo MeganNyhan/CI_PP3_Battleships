@@ -193,7 +193,7 @@
 |-------------|------------|---------------------|-------------------|
 |Intro page offers name input | User enters their name in the prompted input and is addressed personally | Enjoys the personalised aspect of the game |   Works as expected |
 <details><summary>User Testing 3</summary>
-<img src="docs/flow_chart/features/intro_screen"></details>
+<img src="docs/flow_chart/features/intro_screen.png"></details>
 <hr>
 
     4."As a user who not tech savy, I want to be able know how to play the game with very little technical advancity."
@@ -201,10 +201,10 @@
 |-------------|------------|---------------------|-------------------|
 |Simple Navigation through prompts the user has to answer| Once the user is playing the game the user can't move on without answering the prompts on the screen| Able to play the game without frustration and confusion| Works as expected |
 <details><summary>User Testing 4</summary>
-<img src="docs/flow_chart/features/intro_screen">
-<img src="docs/flow_chart/features/game_play">
-<img src="docs/flow_chart/features/loser_screen">
-<img src="docs/flow_chart/features/winner_screen"></details>
+<img src="docs/flow_chart/features/intro_screen.png">
+<img src="docs/flow_chart/features/game_play.png">
+<img src="docs/flow_chart/features/loser_screen.png">
+<img src="docs/flow_chart/features/winner_screen.png"></details>
 <hr>
 
     5."As a user who doesn't understand websites, I want to easily see if I have guessed the question wrong or right."
@@ -212,7 +212,7 @@
 |-------------|------------|---------------------|-------------------|
 | Feedback through game play | Once playing the user will be told if their guess is right or wrong by the game| Guesses the word right depending on the answer they have previously guessed| Works as expected |
 <details><summary>User Testing 5</summary>
-<img src="docs/flow_chart/features/game_feedback"></details>
+<img src="docs/flow_chart/features/game_feedback.png"></details>
 
 <hr>
 
@@ -221,7 +221,7 @@
 |-------------|------------|---------------------|-------------------|
 | Feedback through game play | Once playing the user will be told if their guess is right or wrong by the game| Guesses the word right depending on the answer they have guessed| Works as expected |
 <details><summary>User Testing 6</summary>
-<img src="docs/flow_chart/features/game_feedback"></details>
+<img src="docs/flow_chart/features/game_feedback.png"></details>
 
 ### Testing Site Owner's Stories
 
@@ -230,7 +230,7 @@
 |-------------|------------|---------------------|-------------------|
 |Intro page offers name input | User enters their name in the prompted input and is addressed personally | Enjoys the personalised aspect of the game |  Works as expected |
 <details><summary>User Testing 7</summary>
-<img src="docs/flow_chart/features/intro_screen"></details>
+<img src="docs/flow_chart/features/intro_screen.png"></details>
 <hr>
 
     2."As the owner, I want to have a game that will create a positive experience for the players of the game."
@@ -239,7 +239,7 @@
 |Game play | Simple navigation and game play | The game is simple but fun and aims to create a positive experience | Works as expected |
 
 <details><summary>User Testing 8</summary>
-<img src="docs/flow_chart/features/game_play">
+<img src="docs/flow_chart/features/game_play.png">
 </details>
 <hr>
 
@@ -249,10 +249,10 @@
 | Simple style Navigation | Navigation allows users a restricted choice (Restricted as it doesn't allow too many decisions) | Play the game easily |   Works as expected |
 <details><summary>User Testing 9</summary>
 <summary>User Testing 4</summary>
-<img src="docs/flow_chart/features/intro_screen">
-<img src="docs/flow_chart/features/game_play">
-<img src="docs/flow_chart/features/loser_screen">
-<img src="docs/flow_chart/features/winner_screen">
+<img src="docs/flow_chart/features/intro_screen.png">
+<img src="docs/flow_chart/features/game_play.png">
+<img src="docs/flow_chart/features/loser_screen.png">
+<img src="docs/flow_chart/features/winner_screen.png">
 </details>
 <hr>
 
@@ -261,7 +261,7 @@
 |-------------|------------|---------------------|-------------------|
 | Feedback through game play | Once playing the user will be told if their guess is right or wrong by the game| Guesses the word right depending on the answer they have guessed| Works as expected|
 <details><summary>User Testing 10</summary>
-<img src="docs/flow_chart/features/game_feedback"></details>
+<img src="docs/flow_chart/features/game_feedback.png"></details>
 <hr>
 
 ## Bugs:
