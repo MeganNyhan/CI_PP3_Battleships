@@ -46,7 +46,7 @@
 <ul>
     <li> Straightforward navigation through intro and game play, including a possibility to replay the game.</li>
     <li>The game has real time feedback for users which allows them to understand if their guess is right, wrong or invalid.</li>
-    <li> The option to personalise the game by entering your name. <li>
+    <li> The option to personalise the game by entering your name.</li>
 </ul>
 
 ### User Stories
