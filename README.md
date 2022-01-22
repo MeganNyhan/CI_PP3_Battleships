@@ -255,7 +255,6 @@
 <img src="docs/flow_chart/features/game_feedback"></details>
 <hr>
 
-
 ## Bugs:
 
 | **Bug** | **Fix** |

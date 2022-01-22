@@ -8,13 +8,14 @@ from words import word_list
 # This code is for linking the google spread
 sa = gspread.service_account(filename="keys.json")
 sh = sa.open("pp3_hangman")
-
 wks = sh.worksheet("user")
 
 
-def next_available_row(worksheet):
+def next_available_row(worksheet: str) -> str:
     """
     This function will return the number of the next empty row.
+    @param worksheet(str): This will get the length of the row
+    and then add 1 to add new value to the row.
     """
     str_list = list(filter(None, worksheet.col_values(1)))
     return len(str_list)+1
@@ -30,11 +31,13 @@ def get_word():
     return word.upper()
 
 
-def play(word):
+def play(word: str) -> str:
     """
     Play function.
     This is the main function that will run the game.
     This is also the introduction to the game for the user.
+    @param word(str): This will generate a word from the
+    word list.
     """
     word_completion = "_" * len(word)
     guessed = False
@@ -96,10 +99,12 @@ def play(word):
               "Why not try again!")
 
 
-def display_hangman(tries):
+def display_hangman(tries: int) -> int:
     """
     This function will display the main hangman game.
     As the user plays each stage will appear depending on the guess.
+    @param tries(int): This will calculate the tries left and display
+    the appropriate stage below.
     """
     stages = [  # This is the hangman visual. Final state = full body.
                 """
