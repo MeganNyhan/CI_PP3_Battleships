@@ -19,7 +19,7 @@
     2. [Frameworks and Tools used](#frameworks-and-tools-used)
 5. [Features](#features)
 6. [Testing](#testing)
-    1. [Python Validation](#HTML-validation)
+    1. [Python Validation](#python-validation)
     2. [Testing user stories](#testing-user-stories)
 7. [Bugs](#Bugs)
 8. [Deployment](#deployment)
