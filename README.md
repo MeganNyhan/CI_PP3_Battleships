@@ -248,7 +248,6 @@
 |-------------|------------|---------------------|-------------------|
 | Simple style Navigation | Navigation allows users a restricted choice (Restricted as it doesn't allow too many decisions) | Play the game easily |   Works as expected |
 <details><summary>User Testing 9</summary>
-<summary>User Testing 4</summary>
 <img src="docs/flow_chart/features/intro_screen.png">
 <img src="docs/flow_chart/features/game_play.png">
 <img src="docs/flow_chart/features/loser_screen.png">
