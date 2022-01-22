@@ -80,6 +80,8 @@
 
 ### Data Modeling
 <p> After some research before starting the project, I decided that I didn't need to use Object Orientated Programming. The way I understand OOP is that it is used to seperate data into useful sections then within the programe to section off the functions that manipulate the data into methods, so you can control how the data is managed and also have the code in neat sections. I felt that with the hangman game I wouldn't use this. I don't have individually functioning parts as everything will work together.</p>
+<p> I did use lists within my code so I could easily use stored data that I needed to pass through functions in the run.py file.</p>
+<p>Google Spreadsheets API: Justification: I have used the GSPREAD API in my code so that the required data from the code can be used outside the game and into the google spreadsheet.</p>
 
 ### User Manual:
 <ol>
@@ -95,7 +97,8 @@
 <p>I used Google Spreadsheets as a database that would record the information logged by the players of the game - ie. Name and if they replayed the game. I thought recording this data in particular would help with website analytics. The company that runs the game could see if the game was replayed and fun for the user or If they potentionally got frustrated and didn't play again.</p>
 <details><summary>Google Spreadsheet</summary>
         <img src="docs/flow_chart/google_spreadsheet/google_sheets_database.png"></details>
-<p> The spreadsheet is very basic as in it only has two headings- user name and if they replayed the game. In the future I hope to add to the game a basic or hard version of the game and then record that in the spreadsheet.</p>        
+<p> The spreadsheet is very basic as in it only has two headings- user name and if they replayed the game. In the future I hope to add to the game a basic or hard version of the game and then record that in the spreadsheet.</p>   
+<p>Here is a link to my spreadsheet: https://docs.google.com/spreadsheets/d/1Kv6gYod8qPLaEcLNhIDdd2mJUdZzBqcSu1wEqHsS4YQ/edit?usp=sharing</p>     
 
 ### Technology:
 
@@ -110,8 +113,15 @@
 <li> Git, GitHUb, and GitPod </li>
 <li> Lucid Chart </li>
 <li> Heroku </li>
+<li> Google Sheets </li>
+<li> Google Cloud Platform </li>
 </ul>
 
+### 3rd Party Libraries:
+<ul>
+<li>GSPREAD:JUSTIFICATION: I used gspread, to add and manipulate data in my Google spreadsheet and to interact with Google APIs.</li>
+<li>RANDOM: JUSTIFICATION: I used random to generate the random words from my words.py file to display in the game for users to guess.</li>
+</ul>
 <hr>
 
 ## Features:
