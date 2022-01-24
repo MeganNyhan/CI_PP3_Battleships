@@ -1,6 +1,11 @@
 """
-Imports
+- Also IMPORTANT NOTE: As far as I am aware this workspace has gspread installed.
+- I have double, triple check this project before sending it in 
+to make sure no errors come up with this code.
+- If the error has come up with gspread type pip install gspread into the 
+below terminal. I am sotty about this but I have tried to fix the problem.
 """
+# imports
 import random
 import gspread
 from words import word_list
