@@ -9,7 +9,7 @@
     1. [Target Audience](#target-audience)
     2. [User Requirements](#user-requirements)
     3. [User Stories](#user-stories)
-3. [Technical Design](#technial-design)
+3. [Technical Design](#technical-design)
     1. [Flow Chart](#flow-chart)
     2. [Data Modeling](#data-modeling)
     3. [User Manual](#user-manual)
