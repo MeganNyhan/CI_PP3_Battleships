@@ -60,6 +60,7 @@
     <li>As a user who doesn't understand websites, I want to easily see if I have guessed the question wrong or right.
     </li>
     <li>As a user, i want real time feedback telling me if my guess was right or wrong.</li>
+</ol>
 
 ### Site's Owner Stories
 <ol>
@@ -84,7 +85,7 @@
 
 ### User Manual:
 <ol>
-<li>Once the user enters their name into the game the user will be able to play the game. The code for this game will generate a random letter from the words.py string. This word has to be guessed by the player.<li>
+<li>Once the user enters their name into the game the user will be able to play the game. The code for this game will generate a random letter from the words.py string. This word has to be guessed by the player.</li>
 <li> The user has 6 attempts at guessing the word - If the player guesses a letter that is in the word the letter will appear in the word display to help the player make further correct guesses.</li>
 <li>If the letter they guessed is not in the word the stickman will be drawn to create the hangman display.</li>
 <li> If the player ends up guessing the correct word in the given amount of guesses then the player wins.</li>
@@ -307,7 +308,7 @@
 <ul>
 <li>https://www.youtube.com/watch?v=m4nEnsavl6w&t=474s</li>
 <li>https://www.youtube.com/watch?v=5x6iAKdJB6U</li>
-<li>https://stackoverflow.com/questions/40781295 how-to-find-the-first-empty-row-of-a-google-spread-sheet-using-python-gspread?fbclid=IwAR06xiD8fNg9KDe32-XocJSBfQcJAXMlOBv01zqZujAB3FAGcAut97e_jmo</li>
+<li>https://stackoverflow.com/questions/40781295how-to-find-the-first-empty-row-of-a-google-spread-sheet-using-python-gspread?fbclid=IwAR06xiD8fNg9KDe32-XocJSBfQcJAXMlOBv01zqZujAB3FAGcAut97e_jmo</li>
 </ul>
 <p> I used these videos/ articles soley as a guide I did not copy and paste.</p>
 <hr>
